@@ -1,4 +1,4 @@
 Nama : Habibi
-Stack : Backend
+Stack : Fullstack
 Asal : Serang
 Umur : 20 Tahun
