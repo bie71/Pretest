@@ -1,0 +1,5 @@
+Nama		: Habibi
+Umur		: 28 Tahun
+Stack		: Backend
+Bahasa Pemograman : node.js / javascript
+Asal		: Serang - Banten
