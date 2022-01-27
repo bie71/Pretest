@@ -1,4 +1,4 @@
-let max = 20,
+let max = 21,
    min = 1;
 
 while (min <= max) {
