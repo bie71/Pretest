@@ -1,16 +1,17 @@
-let angka1, angka20, angka3, a, arr;
+let max = 20,
+   min = 1;
 
-angka20 = 20;
-angka1 = 1;
-angka3 = 3;
+while (min <= max) {
 
-arr = ['Santai', 'Berkualitas', 'I love coding'];
+   if ((min % 2 === 1) && (min % 3 !== 0)) {
 
-while (angka1 <= angka20) {
-
-   if (arr[2] === 'I love coding' && angka3 <= 20) {
-      console.log(angka3);
+      console.log(min + ' - Santai');
    }
-   angka3 = angka3 + 2;
-   angka1++;
+   if ((min % 2 === 1) && (min % 3 === 0)) {
+      console.log(min + ' - I Love Coding');
+   }
+   if (min % 2 === 0) {
+      console.log(min + ' - Berkualitas');
+   }
+   min++
 }
